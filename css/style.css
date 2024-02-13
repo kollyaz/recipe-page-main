@@ -1,0 +1,153 @@
+/* # Front-end Style Guide
+
+## Layout The designs were created to the following widths: 
+- Mobile: 375px 
+- Desktop: 1440px 
+
+## Colors 
+
+### Primary 
+- Nutmeg: hsl(14, 45%, 36%) 
+- Dark Raspberry: hsl(332, 51%, 32%) 
+
+### Neutral 
+- White: hsl(0, 0%, 100%) 
+- Rose White: hsl(330, 100%, 98%) 
+- Eggshell: hsl(30, 54%, 90%) 
+- Light Grey: hsl(30, 18%, 87%) 
+- Wenge Brown: hsl(30, 10%, 34%) 
+- Dark Charcoal: hsl(24, 5%, 18%) 
+
+## Typography 
+
+### Body Copy 
+- Font size (paragraph): 16px 
+
+### Fonts 
+- Family: [Young Serif](https: //fonts.google.com/specimen/Young+Serif)
+- Weights: 400 
+- Family: [Outfit](https: //fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700 */
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  font-size: 1.6rem;
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 65rem;
+  margin: 0 auto;
+  border-radius: 3rem;
+  overflow: hidden;
+  padding: 2rem;
+
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  /* margin-right: 1rem; */
+}
+
+li {
+  margin: 1rem;
+  padding-left: 1.2rem;
+}
+
+section {
+  margin-bottom: 2.4rem;
+  border-bottom: 1px solid hsl(24, 5%, 90%);
+  padding-bottom: 1.2rem;
+}
+
+section:last-child {
+  border: none;
+}
+
+article {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 3rem;
+  padding: 0.2rem 2rem;
+}
+
+span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+table {
+
+  border-collapse: collapse;
+  width: 100%;
+  /* text-align: center; */
+}
+
+td {
+  border-bottom: 1px solid hsl(24, 5%, 90%);
+  padding: 1.6rem 2.4rem;
+  margin-right: 10rem;
+}
+
+tr:last-child {
+  border: none;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  ;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+
+.img-cont {
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+img {
+  width: 100%;
+  transition: transform 0.5s;
+  border-radius: 2rem;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+
+.flex-list {
+  display: flex;
+  /* justify-content: center; */
+  /* gap: 20rem; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
