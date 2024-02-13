@@ -1,0 +1,10 @@
+/* AT 620PX */
+@media (max-width: 40em) {
+  body {
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  main {
+    width: 100%;
+  }
+}
